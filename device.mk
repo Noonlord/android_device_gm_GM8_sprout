@@ -110,6 +110,13 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libfmjni \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
