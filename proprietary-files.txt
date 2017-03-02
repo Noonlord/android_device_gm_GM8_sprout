@@ -716,7 +716,6 @@ lib/fm_helium.so
 lib/libfm-hci.so
 lib64/fm_helium.so
 lib64/libfm-hci.so
-vendor/bin/fm_qsoc_patches
 vendor/lib/ftm_fm_lib.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
@@ -1588,7 +1587,6 @@ vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/etc/group
 vendor/etc/sound_trigger_mixer_paths_wcd9306.xml
 vendor/lib64/libnfnetlink.so
-vendor/etc/init/init.qti.fm.rc
 vendor/etc/media_profiles_8956.xml
 vendor/lib64/libnbaio_mono.so
 vendor/package/ChinaTelecom/.preloadspec
@@ -1643,7 +1641,6 @@ vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
 vendor/etc/init/hw/init.msm.usb.configfs.rc
-vendor/bin/init.qti.fm.sh
 vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
