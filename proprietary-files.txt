@@ -1572,14 +1572,8 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # DRM-Hardware
-vendor/bin/hw/android.hardware.drm@1.0-service
-vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.0-service.rc
-vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/hw/android.hardware.drm@1.0-impl.so
-vendor/lib64/hw/android.hardware.drm@1.0-impl.so
 
 # DRM-Qteeconnector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
