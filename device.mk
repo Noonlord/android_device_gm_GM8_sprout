@@ -88,6 +88,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.gm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gm.rc
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.gm8_sprout
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
