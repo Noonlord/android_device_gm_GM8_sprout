@@ -72,6 +72,9 @@ TARGET_USES_ION := true
 
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
+# Encryption
+TARGET_HW_DISK_ENCRYPTION := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
