@@ -115,9 +115,14 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
+
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
 
 # Init scripts
 PRODUCT_COPY_FILES += \
