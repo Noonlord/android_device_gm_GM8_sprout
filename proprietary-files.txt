@@ -1969,34 +1969,6 @@ vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
-# Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
-vendor/lib/libOmxAacEnc.so
-vendor/lib/libOmxAmrEnc.so
-vendor/lib/libOmxCore.so
-vendor/lib/libOmxEvrcEnc.so
-vendor/lib/libOmxG711Enc.so
-vendor/lib/libOmxQcelp13Enc.so
-vendor/lib/libOmxSwVdec.so
-vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVdec.so
-vendor/lib/libOmxVenc.so
-vendor/lib/libstagefrighthw.so
-vendor/lib64/libc2dcolorconvert.so
-vendor/lib64/libmm-omxcore.so
-vendor/lib64/libOmxAacEnc.so
-vendor/lib64/libOmxAmrEnc.so
-vendor/lib64/libOmxCore.so
-vendor/lib64/libOmxEvrcEnc.so
-vendor/lib64/libOmxG711Enc.so
-vendor/lib64/libOmxQcelp13Enc.so
-vendor/lib64/libOmxSwVdec.so
-vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libOmxVdec.so
-vendor/lib64/libOmxVenc.so
-vendor/lib64/libstagefrighthw.so
-
 # NFC
 vendor/etc/libnfc-nci.conf
 
@@ -2610,7 +2582,6 @@ vendor/lib64/libscalar.so
 vendor/lib64/soundfx/libswdap.so
 
 # Misc
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/hw/init.qcom.rc
 vendor/etc/mixer_paths_wcd9306.xml
 -vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
@@ -2646,7 +2617,6 @@ vendor/bin/init.qcom.syspart_fixup.sh
 vendor/lib/libwebrtc_audio_preprocessing.so
 vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/mixer_paths_qrd_sku2.xml
-vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/etc/mixer_paths_skuk.xml
 vendor/bin/init.qcom.wifi.sh
 vendor/bin/init.qcom.sensors.sh
