@@ -2685,7 +2685,6 @@ vendor/package/ChinaUnicom/.preloadspec
 vendor/etc/sec_config
 vendor/lib64/libhypv_intercept.so
 vendor/bin/init.class_main.sh
-vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/media_codecs_google_telephony.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/bin/init.mdm.sh
