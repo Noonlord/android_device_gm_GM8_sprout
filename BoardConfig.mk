@@ -110,6 +110,7 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
+TARGET_POWER_SET_FEATURE_LIB := libpower_feature.gm8_sprout
 TARGET_USES_INTERACTION_BOOST := true
 
 # Props
