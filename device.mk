@@ -226,6 +226,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
