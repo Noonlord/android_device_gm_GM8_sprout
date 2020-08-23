@@ -1,0 +1,2 @@
+# Health
+type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
