@@ -58,6 +58,9 @@ function blob_fixup() {
     vendor/lib/hw/camera.msm8937.so)
         sed -i "s/service.bootanim.exit/service.bootanim.zzzz/g" "${2}"
         ;;
+    product/lib64/libdpmframework.so)
+        "${PATCHELF}" --add-needed "libshim_dpmframework.so" "${2}"
+        ;;
     esac
 }
 
