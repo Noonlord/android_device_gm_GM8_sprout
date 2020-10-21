@@ -61,6 +61,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+    vendor/lib/hw/camera.msm8937.so)
+        sed -i "s/service.bootanim.exit/service.bootanim.zzzz/g" "${2}"
+        ;;
     esac
 }
 
