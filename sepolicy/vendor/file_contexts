@@ -15,3 +15,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.gm8_sprout		u:object_r:hal_light_default_exec:s0
 /sys/devices/soc/78b7000.i2c/i2c-3/3-0045/leds(/.*)?        u:object_r:sysfs_leds:s0
 
+# Power
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.mock               u:object_r:hal_power_stats_default_exec:s0
+
