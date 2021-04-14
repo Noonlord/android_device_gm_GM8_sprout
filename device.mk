@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlay \
     librmnetctl
 
 # RCS
