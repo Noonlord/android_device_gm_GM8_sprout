@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_vendor_gm_GM8_sprout",
+    "target_path": "vendor/gm/GM8_sprout"
+  },
+  {
+    "repository": "android_kernel_gm_msm8937",
+    "target_path": "kernel/gm/msm8937"
+  }
+]
