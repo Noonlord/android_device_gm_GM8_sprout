@@ -26,5 +26,20 @@ PRODUCT_PACKAGES += \
 # Toybox
 PRODUCT_PACKAGES += toybox_vendor
 
+# WiFi
+PRODUCT_PACKAGES += \
+    libwpa_client \
+    wcnss_service \
+    libwifi-hal \
+    libwifi-hal-qcom
+
+PRODUCT_PACKAGES += \
+    hostapd \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
 # Inherit vendor
 include vendor/gm/GM8_sprout/GM8_sprout-vendor.mk
