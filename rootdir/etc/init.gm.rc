@@ -1,0 +1,3 @@
+on boot
+    chmod 0664 /sys/module/wlan/parameters/fwpath
+    chown wifi wifi /sys/module/wlan/parameters/fwpath
