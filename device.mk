@@ -18,7 +18,11 @@ PRODUCT_PACKAGES += otapreopt_script
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
-# Soundtrigger
+# Init scripts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.gm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gm.rc
+
+# Soundtrigger
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0-core\
     android.hardware.soundtrigger@2.0
