@@ -1637,54 +1637,14 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # Display-Hardware
-vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
-vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.msm8937.so
-vendor/lib/hw/hwcomposer.msm8937.so
-vendor/lib/hw/memtrack.msm8937.so
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so
-vendor/lib/libqdutils.so
 vendor/lib/libqservice.so
 vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
-vendor/lib/vendor.display.config@1.0.so
-vendor/lib/vendor.display.config@1.1.so
-vendor/lib/vendor.display.config@1.2.so
-vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.msm8937.so
-vendor/lib64/hw/hwcomposer.msm8937.so
-vendor/lib64/hw/memtrack.msm8937.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libsdmutils.so
-vendor/lib64/vendor.display.config@1.0.so
-vendor/lib64/vendor.display.config@1.1.so
-vendor/lib64/vendor.display.config@1.2.so
 
 # Dolby
 vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
@@ -2711,7 +2671,6 @@ vendor/lib/soundfx/libeffectproxy.so
 vendor/etc/mixer_paths_wcd9306.xml
 -vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/lib/libtinyxml.so
 vendor/etc/audio_output_policy.conf
 -vendor/overlay/OptInAppOverlay/OptInAppOverlay.apk
 vendor/etc/mixer_paths_sdm439_pm8953.xml
@@ -2797,7 +2756,6 @@ vendor/etc/init/vndservicemanager.rc
 vendor/lib64/libnbaio_mono.so
 vendor/package/ChinaTelecom/.preloadspec
 -vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk
-vendor/lib64/libtinyxml.so
 vendor/etc/sap.conf
 vendor/lib64/camera.device@3.3-impl.so
 vendor/bin/awk

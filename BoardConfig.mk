@@ -1,7 +1,6 @@
 DEVICE_PATH := device/gm/GM8_sprout
 
 BUILD_BROKEN_DUP_RULES := true
-QCOM_SOONG_NAMESPACE := $(empty)
 
 # Architecture
 TARGET_ARCH := arm64
@@ -32,6 +31,16 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
+
+# Display
+MAX_VIRTUAL_DISPLAY_DIMENSION := 4096
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
+TARGET_USES_GRALLOC1 := true
+TARGET_USES_HWC2 := true
+TARGET_USES_ION := true
+
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
@@ -69,6 +78,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_BOOTLOADER_BOARD_NAME := QC_Reference_Phone
+BOARD_USES_QCOM_HARDWARE := true
 
 # Props
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

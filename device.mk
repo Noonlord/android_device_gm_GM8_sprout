@@ -14,6 +14,32 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += otapreopt_script
 
+# Display
+PRODUCT_PACKAGES += \
+    gralloc.msm8937 \
+    hwcomposer.msm8937 \
+    libdisplayconfig \
+    liboverlay \
+    libqdMetaData.system \
+    libqdMetaData.vendor \
+    libtinyxml \
+    libvulkan \
+    memtrack.msm8937
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.mapper@2.0-impl \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service
+
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@1.1.vendor \
+    vendor.display.config@1.2.vendor
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
