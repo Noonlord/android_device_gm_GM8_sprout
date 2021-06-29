@@ -247,9 +247,6 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 
 # Camera
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/camera.msm8937.so
 vendor/lib/libcam.meiyan.so
 vendor/lib/libcam.meiyanHDR.so
@@ -276,7 +273,6 @@ vendor/lib/libremosaic_daemon.so
 vendor/lib/libswvdec.so
 vendor/lib/libvideoutils.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libswvdec.so
@@ -2697,7 +2693,6 @@ vendor/bin/init.qcom.sdio.sh
 vendor/etc/media_codecs_8937_v1.xml
 vendor/etc/media_codecs_8956.xml
 vendor/lib64/libreference-ril.so
-vendor/lib64/camera.device@3.4-external-impl.so
 vendor/etc/audio_effects.xml
 vendor/lib64/libhwminijail.so
 vendor/etc/mixer_paths_wcd9335.xml
@@ -2757,7 +2752,6 @@ vendor/lib64/libnbaio_mono.so
 vendor/package/ChinaTelecom/.preloadspec
 -vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk
 vendor/etc/sap.conf
-vendor/lib64/camera.device@3.3-impl.so
 vendor/bin/awk
 vendor/bin/init.qcom.post_boot.sh
 vendor/etc/seccomp_policy/mediaextractor.policy
@@ -2769,7 +2763,6 @@ vendor/bin/init.qcom.efs.sync.sh
 vendor/lib64/soundfx/libvisualizer.so
 vendor/etc/flp.conf
 vendor/bin/wcnss_service
-vendor/lib64/camera.device@3.4-impl.so
 vendor/etc/ftm_test_config
 vendor/etc/media_codecs_google_audio.xml
 vendor/etc/mixer_paths_qrd_skuh.xml
@@ -2782,7 +2775,6 @@ vendor/bin/hw/android.hardware.cas@1.0-service
 vendor/etc/gps.conf
 vendor/etc/media_codecs_google_video_le.xml
 vendor/etc/seccomp_policy/mediacodec.policy
-vendor/lib/camera.device@3.4-external-impl.so
 vendor/lib/hw/local_time.default.so
 vendor/etc/selinux/plat_pub_versioned.cil
 vendor/etc/init/android.hardware.boot@1.0-service.rc
@@ -2793,7 +2785,6 @@ vendor/lib/librilutils.so
 vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/bin/grep
 vendor/etc/media_codecs_vendor_audio.xml
-vendor/lib/camera.device@3.3-impl.so
 vendor/lib64/libwpa_client.so
 vendor/etc/IPACM_cfg.xml
 vendor/etc/media_codecs_performance.xml
@@ -2805,7 +2796,6 @@ vendor/etc/selinux/vendor_sepolicy.cil
 vendor/etc/selinux/precompiled_sepolicy
 vendor/lib64/libjson.so
 vendor/lib/android.hardware.automotive.vehicle@2.0-manager-lib.so
-vendor/lib/camera.device@1.0-impl.so
 vendor/lib64/libbthost_if.so
 vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libipanat.so
@@ -2835,13 +2825,11 @@ vendor/etc/lowi.conf
 vendor/etc/selinux/vendor_property_contexts
 vendor/bin/init.qcom.usb.sh
 vendor/default.prop
-vendor/lib/camera.device@3.4-impl.so
 vendor/lib64/soundfx/libreverbwrapper.so
 vendor/etc/fs_config_files
 vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
-vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/librmnetctl.so
 vendor/bin/sh
 vendor/etc/init/hw/init.msm.usb.configfs.rc
@@ -2849,7 +2837,6 @@ vendor/lib64/libeffects.so
 vendor/bin/init.qti.fm.sh
 vendor/lib/soundfx/libbundlewrapper.so
 vendor/bin/init.qti.ims.sh
-vendor/lib64/camera.device@1.0-impl.so
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
@@ -2863,7 +2850,6 @@ vendor/etc/init/rild.legacy.rc
 vendor/etc/public.libraries.txt
 vendor/etc/media_codecs_google_video.xml
 vendor/etc/init/hostapd.android.rc
-vendor/lib/camera.device@3.2-impl.so
 vendor/bin/vndservice
 vendor/etc/mixer_paths_qrd_skum.xml
 vendor/bin/init.qcom.crashdata.sh
