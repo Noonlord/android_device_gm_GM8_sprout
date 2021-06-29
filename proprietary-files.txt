@@ -2700,7 +2700,6 @@ vendor/lib/libwebrtc_audio_preprocessing.so
 vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/mixer_paths_qrd_sku2.xml
 vendor/bin/hw/android.hardware.media.omx@1.0-service
-vendor/lib64/hw/android.hardware.boot@1.0-impl.so
 vendor/etc/mixer_paths_skuk.xml
 vendor/bin/init.qcom.wifi.sh
 vendor/bin/init.qcom.sensors.sh
@@ -2713,10 +2712,8 @@ vendor/lib64/libqsap_sdk.so
 vendor/etc/msm_irqbalance.conf
 vendor/lib64/libhwc2on1adapter.so
 vendor/lib64/soundfx/libdynproc.so
-vendor/lib/hw/android.hardware.boot@1.0-impl.so
 vendor/lib/soundfx/libdynproc.so
 -vendor/overlay/CtNetworkSettingRes/CtNetworkSettingRes.apk
-vendor/lib/librecovery_updater_msm.so
 vendor/lib/libhwc2on1adapter.so
 vendor/etc/media_profiles_V1_0.xml
 vendor/bin/init.lct.bootcheck.sh
@@ -2726,7 +2723,6 @@ vendor/etc/selinux/vndservice_contexts
 vendor/etc/mixer_paths_qrd_skun.xml
 -vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/lib/libavservices_minijail_vendor.so
-vendor/lib64/hw/bootctrl.msm8937.so
 vendor/etc/selinux/vendor_hwservice_contexts
 vendor/bin/init.lct.bootcheckend.sh
 vendor/etc/mixer_paths_qrd_skui.xml
@@ -2735,7 +2731,6 @@ vendor/etc/sound_trigger_mixer_paths_wcd9335.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/audio_platform_info.xml
 vendor/etc/mixer_paths_qrd_sku1.xml
-vendor/bin/hw/android.hardware.boot@1.0-service
 vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/etc/group
 vendor/etc/sound_trigger_mixer_paths_wcd9306.xml
@@ -2775,7 +2770,6 @@ vendor/etc/media_codecs_google_video_le.xml
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/hw/local_time.default.so
 vendor/etc/selinux/plat_pub_versioned.cil
-vendor/etc/init/android.hardware.boot@1.0-service.rc
 vendor/etc/mkshrc
 vendor/lib64/liboffloadhal.so
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
@@ -2854,9 +2848,7 @@ vendor/bin/init.qcom.crashdata.sh
 vendor/etc/mixer_paths_qrd_skuhf.xml
 vendor/lib/libqsap_sdk.so
 vendor/etc/xtwifi.conf
-vendor/lib/hw/bootctrl.msm8937.so
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib64/librecovery_updater_msm.so
 vendor/lib/libnbaio_mono.so
 vendor/lib/librmnetctl.so
 vendor/lib64/libcld80211.so

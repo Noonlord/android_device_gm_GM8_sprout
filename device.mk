@@ -14,6 +14,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += otapreopt_script
 
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-service \
+    bootctrl.msm8937
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
