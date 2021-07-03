@@ -131,32 +131,6 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 
-# Audio-Hardware
-vendor/bin/hw/android.hardware.audio@2.0-service
-vendor/etc/init/android.hardware.audio@2.0-service.rc
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
-vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.msm8937.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.primary.msm8937.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-
 # Bluetooth
 vendor/bin/btnvtool
 vendor/bin/hci_qcomm_init
@@ -1929,7 +1903,6 @@ vendor/lib64/hw/android.hardware.light@2.0-impl.so
 vendor/lib64/hw/lights.msm8937.so
 
 # Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/sound_trigger.primary.msm8937.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
@@ -2657,7 +2630,6 @@ vendor/lib64/soundfx/libswdap.so
 # Misc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/hw/init.qcom.rc
-vendor/lib/soundfx/libeffectproxy.so
 vendor/etc/mixer_paths_wcd9306.xml
 -vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
 vendor/etc/wifi/wpa_supplicant_overlay.conf
@@ -2678,7 +2650,6 @@ vendor/etc/permissions/android.hardware.light.xml
 vendor/bin/hw/android.hardware.usb@1.0-service
 vendor/lib/libeffects.so
 vendor/etc/apdr.conf
-vendor/lib/soundfx/libdownmix.so
 vendor/lib/libbthost_if.so
 vendor/etc/init/android.hardware.usb@1.0-service.rc
 vendor/etc/init/android.hardware.cas@1.0-service.rc
@@ -2707,8 +2678,6 @@ vendor/bin/init.qti.qseecomd.sh
 vendor/lib64/libqsap_sdk.so
 vendor/etc/msm_irqbalance.conf
 vendor/lib64/libhwc2on1adapter.so
-vendor/lib64/soundfx/libdynproc.so
-vendor/lib/soundfx/libdynproc.so
 -vendor/overlay/CtNetworkSettingRes/CtNetworkSettingRes.apk
 vendor/lib/libhwc2on1adapter.so
 vendor/etc/media_profiles_V1_0.xml
@@ -2730,11 +2699,9 @@ vendor/etc/mixer_paths_qrd_sku1.xml
 vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/etc/group
 vendor/etc/sound_trigger_mixer_paths_wcd9306.xml
-vendor/lib64/soundfx/libeffectproxy.so
 vendor/lib64/libnfnetlink.so
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/media_profiles_8956.xml
-vendor/lib64/soundfx/libbundlewrapper.so
 vendor/etc/selinux/vendor_file_contexts
 vendor/etc/init/vndservicemanager.rc
 vendor/lib64/libnbaio_mono.so
@@ -2749,7 +2716,6 @@ vendor/etc/audio_platform_info_extcodec.xml
 vendor/ueventd.rc
 vendor/etc/audio/audio_policy_configuration.xml
 vendor/bin/init.qcom.efs.sync.sh
-vendor/lib64/soundfx/libvisualizer.so
 vendor/etc/flp.conf
 vendor/bin/wcnss_service
 vendor/etc/ftm_test_config
@@ -2813,7 +2779,6 @@ vendor/etc/lowi.conf
 vendor/etc/selinux/vendor_property_contexts
 vendor/bin/init.qcom.usb.sh
 vendor/default.prop
-vendor/lib64/soundfx/libreverbwrapper.so
 vendor/etc/fs_config_files
 vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
@@ -2823,15 +2788,11 @@ vendor/bin/sh
 vendor/etc/init/hw/init.msm.usb.configfs.rc
 vendor/lib64/libeffects.so
 vendor/bin/init.qti.fm.sh
-vendor/lib/soundfx/libbundlewrapper.so
 vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
-vendor/lib/soundfx/libvisualizer.so
-vendor/lib/soundfx/libreverbwrapper.so
 vendor/etc/media_codecs_vendor.xml
-vendor/lib/soundfx/libldnhncr.so
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib64/librilutils.so
 vendor/etc/init/rild.legacy.rc
@@ -2851,11 +2812,9 @@ vendor/lib64/libcld80211.so
 vendor/bin/logwrapper
 vendor/etc/media_codecs.xml
 vendor/lib/libcld80211.so
-vendor/lib64/soundfx/libldnhncr.so
 vendor/etc/audio_policy.conf
 vendor/lib/libwpa_client.so
 vendor/lib64/libril.so
-vendor/lib64/soundfx/libdownmix.so
 vendor/etc/default_volume_tables.xml
 vendor/lib/libalsautils.so
 vendor/etc/init/hw/init.target.rc
