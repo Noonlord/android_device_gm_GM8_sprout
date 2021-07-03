@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
 # Toybox
 PRODUCT_PACKAGES += toybox_vendor
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client \

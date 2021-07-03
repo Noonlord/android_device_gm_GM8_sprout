@@ -2647,11 +2647,9 @@ vendor/bin/toolbox
 vendor/etc/selinux/vendor_mac_permissions.xml
 vendor/etc/mixer_paths_wcd9326.xml
 vendor/etc/permissions/android.hardware.light.xml
-vendor/bin/hw/android.hardware.usb@1.0-service
 vendor/lib/libeffects.so
 vendor/etc/apdr.conf
 vendor/lib/libbthost_if.so
-vendor/etc/init/android.hardware.usb@1.0-service.rc
 vendor/etc/init/android.hardware.cas@1.0-service.rc
 vendor/etc/audio_policy_volumes.xml
 vendor/bin/init.qcom.sdio.sh
