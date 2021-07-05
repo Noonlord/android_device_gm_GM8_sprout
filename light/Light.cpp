@@ -16,12 +16,11 @@
 
 #define LOG_TAG "LightService"
 
-#include <log/log.h>
-
 #include "Light.h"
-
+#include <log/log.h>
 #include <fstream>
 
+#include <android-base/logging.h>
 namespace android {
 namespace hardware {
 namespace light {
@@ -31,32 +30,12 @@ namespace implementation {
 #define LEDS            "/sys/class/leds/"
 
 #define LCD_LED         LEDS "lcd-backlight/"
-#define BUTTON_LED      LEDS "button-backlight/"
-#define BUTTON1_LED     LEDS "button-backlight1/"
 #define RED_LED         LEDS "red/"
 #define GREEN_LED       LEDS "green/"
 #define BLUE_LED        LEDS "blue/"
 
 #define BLINK           "blink"
 #define BRIGHTNESS      "brightness"
-#define DUTY_PCTS       "duty_pcts"
-#define START_IDX       "start_idx"
-#define PAUSE_LO        "pause_lo"
-#define PAUSE_HI        "pause_hi"
-#define RAMP_STEP_MS    "ramp_step_ms"
-
-/*
- * 8 duty percent steps.
- */
-#define RAMP_STEPS 8
-/*
- * Each step will stay on for 50ms by default.
- */
-#define RAMP_STEP_DURATION 50
-/*
- * Each value represents a duty percent (0 - 100) for the led pwm.
- */
-static int32_t BRIGHTNESS_RAMP[RAMP_STEPS] = {0, 12, 25, 37, 50, 72, 85, 100};
 
 /*
  * Write value to path and close file.
@@ -75,27 +54,6 @@ static void handleBacklight(const LightState& state) {
     set(LCD_LED BRIGHTNESS, brightness);
 }
 
-static void handleButtons(const LightState& state) {
-    uint32_t brightness = state.color & 0xFF;
-    set(BUTTON_LED BRIGHTNESS, brightness);
-    set(BUTTON1_LED BRIGHTNESS, brightness);
-}
-
-/*
- * Scale each value of the brightness ramp according to the
- * brightness of the color.
- */
-static std::string getScaledRamp(uint32_t brightness) {
-    std::string ramp, pad;
-
-    for (auto const& step : BRIGHTNESS_RAMP) {
-        int32_t scaledStep = (step * brightness) / 0xFF;
-        ramp += pad + std::to_string(scaledStep);
-        pad = ",";
-    }
-
-    return ramp;
-}
 
 static void handleNotification(const LightState& state) {
     uint32_t redBrightness, greenBrightness, blueBrightness, brightness;
@@ -117,65 +75,22 @@ static void handleNotification(const LightState& state) {
         greenBrightness = (greenBrightness * brightness) / 0xFF;
         blueBrightness = (blueBrightness * brightness) / 0xFF;
     }
-
+    redBrightness = redBrightness /= 1.7;
+    greenBrightness = greenBrightness /= 1.7;
+    blueBrightness = blueBrightness /= 1.7;
+    
     /* Disable blinking. */
     set(RED_LED BLINK, 0);
     set(GREEN_LED BLINK, 0);
     set(BLUE_LED BLINK, 0);
-
-    if (state.flashMode == Flash::TIMED) {
-        /*
-         * If the flashOnMs duration is not long enough to fit ramping up
-         * and down at the default step duration, step duration is modified
-         * to fit.
-         */
-        int32_t stepDuration = RAMP_STEP_DURATION;
-        int32_t pauseHi = state.flashOnMs - (stepDuration * RAMP_STEPS * 2);
-        int32_t pauseLo = state.flashOffMs;
-
-        if (pauseHi < 0) {
-            stepDuration = state.flashOnMs / (RAMP_STEPS * 2);
-            pauseHi = 0;
-        }
-
-        /* Red */
-        set(RED_LED START_IDX, 0 * RAMP_STEPS);
-        set(RED_LED DUTY_PCTS, getScaledRamp(redBrightness));
-        set(RED_LED PAUSE_LO, pauseLo);
-        set(RED_LED PAUSE_HI, pauseHi);
-        set(RED_LED RAMP_STEP_MS, stepDuration);
-
-        /* Green */
-        set(GREEN_LED START_IDX, 1 * RAMP_STEPS);
-        set(GREEN_LED DUTY_PCTS, getScaledRamp(greenBrightness));
-        set(GREEN_LED PAUSE_LO, pauseLo);
-        set(GREEN_LED PAUSE_HI, pauseHi);
-        set(GREEN_LED RAMP_STEP_MS, stepDuration);
-
-        /* Blue */
-        set(BLUE_LED START_IDX, 2 * RAMP_STEPS);
-        set(BLUE_LED DUTY_PCTS, getScaledRamp(blueBrightness));
-        set(BLUE_LED PAUSE_LO, pauseLo);
-        set(BLUE_LED PAUSE_HI, pauseHi);
-        set(BLUE_LED RAMP_STEP_MS, stepDuration);
-
-        /* Enable blinking. */
-        if (redBrightness > 0)
-            set(RED_LED BLINK, 1);
-        if (greenBrightness > 0)
-            set(GREEN_LED BLINK, 1);
-        if (blueBrightness > 0)
-            set(BLUE_LED BLINK, 1);
-    } else {
-        set(RED_LED BRIGHTNESS, redBrightness);
-        set(GREEN_LED BRIGHTNESS, greenBrightness);
-        set(BLUE_LED BRIGHTNESS, blueBrightness);
-    }
+    
+    set(RED_LED BRIGHTNESS, redBrightness);
+    set(GREEN_LED BRIGHTNESS, greenBrightness);
+    set(BLUE_LED BRIGHTNESS, blueBrightness);
 }
 
 static std::map<Type, std::function<void(const LightState&)>> lights = {
     {Type::BACKLIGHT, handleBacklight},
-    {Type::BUTTONS, handleButtons},
     {Type::BATTERY, handleNotification},
     {Type::NOTIFICATIONS, handleNotification},
     {Type::ATTENTION, handleNotification},
