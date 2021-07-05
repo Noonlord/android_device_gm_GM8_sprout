@@ -1,3 +1,17 @@
 on boot
     chmod 0664 /sys/module/wlan/parameters/fwpath
     chown wifi wifi /sys/module/wlan/parameters/fwpath
+
+    chown system system /sys/class/leds/red/blink
+    chown system system /sys/class/leds/blue/blink
+    chown system system /sys/class/leds/green/blink
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+
+    chmod 0660 /sys/class/leds/red/blink
+    chmod 0660 /sys/class/leds/blue/blink
+    chmod 0660 /sys/class/leds/green/blink
+    chmod 0660 /sys/class/leds/red/brightness
+    chmod 0660 /sys/class/leds/green/brightness
+    chmod 0660 /sys/class/leds/blue/brightness
