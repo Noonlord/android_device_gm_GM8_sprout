@@ -21,6 +21,8 @@
 #include <hidl/Status.h>
 #include <map>
 #include <mutex>
+#include <log/log.h>
+#include <android-base/logging.h>
 
 namespace android {
 namespace hardware {
