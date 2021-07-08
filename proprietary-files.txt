@@ -1518,10 +1518,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# Configstore
-vendor/bin/hw/android.hardware.configstore@1.1-service
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
-
 # DPM
 vendor/bin/dpmQmiMgr
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
@@ -2584,7 +2580,6 @@ vendor/lib64/soundfx/libswdap.so
 # Misc
 vendor/etc/init/hw/init.qcom.rc
 vendor/etc/mixer_paths_wcd9306.xml
--vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/audio_output_policy.conf
 -vendor/overlay/OptInAppOverlay/OptInAppOverlay.apk
@@ -2592,11 +2587,9 @@ vendor/etc/mixer_paths_sdm439_pm8953.xml
 -vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 vendor/etc/selinux/vendor_seapp_contexts
 vendor/etc/fs_config_dirs
-vendor/etc/passwd
 vendor/lib/libhypv_intercept.so
 vendor/etc/init/hw/init.qcom.usb.rc
 vendor/bin/qca6234-service.sh
-vendor/bin/toolbox
 vendor/etc/selinux/vendor_mac_permissions.xml
 vendor/etc/mixer_paths_wcd9326.xml
 vendor/etc/permissions/android.hardware.light.xml
@@ -2656,9 +2649,7 @@ vendor/etc/selinux/vendor_file_contexts
 vendor/etc/init/vndservicemanager.rc
 vendor/lib64/libnbaio_mono.so
 vendor/package/ChinaTelecom/.preloadspec
--vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk
 vendor/etc/sap.conf
-vendor/bin/awk
 vendor/bin/init.qcom.post_boot.sh
 vendor/etc/seccomp_policy/mediaextractor.policy
 vendor/bin/vndservicemanager
@@ -2673,7 +2664,6 @@ vendor/etc/media_codecs_google_audio.xml
 vendor/etc/mixer_paths_qrd_skuh.xml
 vendor/lib/libreference-ril.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
--vendor/overlay/ChinaMobileFrameworksRes/ChinaMobileFrameworksRes.apk
 vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/audio_effects.conf
 vendor/bin/hw/android.hardware.cas@1.0-service
@@ -2682,7 +2672,6 @@ vendor/etc/media_codecs_google_video_le.xml
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/hw/local_time.default.so
 vendor/etc/selinux/plat_pub_versioned.cil
-vendor/etc/mkshrc
 vendor/lib64/liboffloadhal.so
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/lib/librilutils.so
@@ -2718,23 +2707,19 @@ vendor/etc/sec_config
 vendor/etc/mixer_paths_mtp.xml
 vendor/lib64/libhypv_intercept.so
 vendor/bin/init.class_main.sh
--vendor/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk
 vendor/bin/ipacm
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/media_codecs_google_telephony.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/bin/init.mdm.sh
--vendor/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk
 vendor/etc/lowi.conf
 vendor/etc/selinux/vendor_property_contexts
 vendor/bin/init.qcom.usb.sh
-vendor/default.prop
 vendor/etc/fs_config_files
 vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
 vendor/lib64/librmnetctl.so
-vendor/bin/sh
 vendor/etc/init/hw/init.msm.usb.configfs.rc
 vendor/lib64/libeffects.so
 vendor/bin/init.qti.fm.sh
@@ -2748,7 +2733,6 @@ vendor/lib64/librilutils.so
 vendor/etc/init/rild.legacy.rc
 vendor/etc/public.libraries.txt
 vendor/etc/media_codecs_google_video.xml
-vendor/etc/init/hostapd.android.rc
 vendor/bin/vndservice
 vendor/etc/mixer_paths_qrd_skum.xml
 vendor/bin/init.qcom.crashdata.sh
