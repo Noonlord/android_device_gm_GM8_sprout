@@ -2634,13 +2634,11 @@ vendor/etc/sound_trigger_mixer_paths_wcd9306.xml
 vendor/lib64/libnfnetlink.so
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/media_profiles_8956.xml
-vendor/etc/init/vndservicemanager.rc
 vendor/lib64/libnbaio_mono.so
 vendor/package/ChinaTelecom/.preloadspec
 vendor/etc/sap.conf
 vendor/bin/init.qcom.post_boot.sh
 vendor/etc/seccomp_policy/mediaextractor.policy
-vendor/bin/vndservicemanager
 vendor/etc/audio_platform_info_extcodec.xml
 vendor/ueventd.rc
 vendor/etc/audio/audio_policy_configuration.xml
@@ -2716,7 +2714,6 @@ vendor/lib64/librilutils.so
 vendor/etc/init/rild.legacy.rc
 vendor/etc/public.libraries.txt
 vendor/etc/media_codecs_google_video.xml
-vendor/bin/vndservice
 vendor/etc/mixer_paths_qrd_skum.xml
 vendor/bin/init.qcom.crashdata.sh
 vendor/etc/mixer_paths_qrd_skuhf.xml
