@@ -15,7 +15,7 @@
 //
 
 cc_library {
-    name: "bootctrl.msm8953",
+    name: "bootctrl.msm8937",
     defaults: ["bootctrl_hal_defaults"],
     static_libs: ["libgptutils.tissot"],
 }
