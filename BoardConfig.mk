@@ -131,9 +131,9 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := current
 BOARD_VNDK_VERSION := current
 BOARD_VNDK_RUNTIME_DISABLE := true
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
