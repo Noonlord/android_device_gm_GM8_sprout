@@ -2572,7 +2572,6 @@ vendor/lib64/libscalar.so
 vendor/lib64/soundfx/libswdap.so
 
 # Misc
-vendor/etc/init/hw/init.qcom.rc
 vendor/etc/mixer_paths_wcd9306.xml
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/audio_output_policy.conf
@@ -2731,6 +2730,5 @@ vendor/lib/libwpa_client.so
 vendor/lib64/libril.so
 vendor/etc/default_volume_tables.xml
 vendor/lib/libalsautils.so
-vendor/etc/init/hw/init.target.rc
 vendor/etc/sensors/hals.conf
 vendor/etc/izat.conf
