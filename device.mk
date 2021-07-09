@@ -109,6 +109,12 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
+
 # Init scripts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.gm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gm.rc \
