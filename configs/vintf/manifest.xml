@@ -757,7 +757,4 @@
         </interface>
         <fqname>@1.0::ISwfingerprint/default</fqname>
     </hal>
-    <sepolicy>
-        <version>28.0</version>
-    </sepolicy>
 </manifest>
