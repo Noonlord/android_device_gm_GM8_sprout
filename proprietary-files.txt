@@ -1926,7 +1926,6 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libstagefright_foundation.so
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libvpplibrary.so
@@ -2574,7 +2573,6 @@ vendor/lib64/soundfx/libswdap.so
 vendor/etc/mixer_paths_wcd9306.xml
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/audio_output_policy.conf
--vendor/overlay/OptInAppOverlay/OptInAppOverlay.apk
 vendor/etc/mixer_paths_sdm439_pm8953.xml
 -vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 vendor/etc/fs_config_dirs
@@ -2611,7 +2609,6 @@ vendor/bin/init.qti.qseecomd.sh
 vendor/lib64/libqsap_sdk.so
 vendor/etc/msm_irqbalance.conf
 vendor/lib64/libhwc2on1adapter.so
--vendor/overlay/CtNetworkSettingRes/CtNetworkSettingRes.apk
 vendor/lib/libhwc2on1adapter.so
 vendor/etc/media_profiles_V1_0.xml
 vendor/bin/init.lct.bootcheck.sh
