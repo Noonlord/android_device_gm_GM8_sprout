@@ -2621,7 +2621,6 @@ vendor/lib64/libqsap_sdk.so
 vendor/etc/msm_irqbalance.conf
 vendor/lib64/libhwc2on1adapter.so
 vendor/lib/libhwc2on1adapter.so
-vendor/etc/media_profiles_V1_0.xml
 vendor/bin/init.lct.bootcheck.sh
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/etc/mixer_paths_qrd_skun.xml
@@ -2671,7 +2670,6 @@ vendor/bin/grep
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/lib64/libwpa_client.so
 vendor/etc/IPACM_cfg.xml
-vendor/etc/media_codecs_performance.xml
 vendor/package/CTA/.preloadspec
 vendor/lib64/libalsautils.so
 vendor/etc/media_profiles.xml
@@ -2714,7 +2712,6 @@ vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
-vendor/etc/media_codecs_vendor.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib64/librilutils.so
 vendor/etc/init/rild.legacy.rc
@@ -2730,7 +2727,6 @@ vendor/lib/libnbaio_mono.so
 vendor/lib/librmnetctl.so
 vendor/lib64/libcld80211.so
 vendor/bin/logwrapper
-vendor/etc/media_codecs.xml
 vendor/lib/libcld80211.so
 vendor/etc/audio_policy.conf
 vendor/lib/libwpa_client.so
