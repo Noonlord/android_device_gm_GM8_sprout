@@ -2601,7 +2601,6 @@ vendor/bin/init.qcom.sdio.sh
 vendor/etc/media_codecs_8937_v1.xml
 vendor/etc/media_codecs_8956.xml
 vendor/lib64/libreference-ril.so
-vendor/etc/audio_effects.xml
 vendor/lib64/libhwminijail.so
 vendor/etc/mixer_paths_wcd9335.xml
 vendor/lib/libril.so
