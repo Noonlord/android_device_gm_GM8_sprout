@@ -1529,12 +1529,33 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# DPM
-vendor/bin/dpmQmiMgr
-vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib/libdpmqmihal.so
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib64/libdpmqmihal.so
+# DPM - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
+product/bin/dpmd|cac8f3eadeeec202f56d5b5f7a8c75e82e376d9f
+product/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
+product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
+product/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09
+product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
+product/framework/com.qti.dpmframework.jar|e39a7e06af2d1e95a3724c19c36b8716277f53a1
+product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
+product/lib/com.qualcomm.qti.dpm.api@1.0.so|50a6e8edcad48708d0b0cac98e7f9be98bdea225
+product/lib/libdpmctmgr.so|7ac017c1861d2b715074083daef2aa1a6cd6021b
+product/lib/libdpmfdmgr.so|2be3f4e034af1399a8aef1012708591bc3a001f9
+product/lib/libdpmframework.so|3def0c2c741d9092197d499bef6d245b8430a4c7
+product/lib/libdpmtcm.so|b9bc8c5e52b609d97a7e0fe79f3189bdd5bc80a2
+product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
+product/lib64/libdpmctmgr.so|7ee0d1d40a8fc7fea924602db13717235ed2c2aa
+product/lib64/libdpmfdmgr.so|cb0157da0ffe6827471662a5b7881e85165cb5aa
+product/lib64/libdpmframework.so|8b2183e4b50a033b10c640cbc0b14a39ed5dca16
+product/lib64/libdpmtcm.so|a98ab3c419ebe49c6f3351ef4fa64ebda65d0e7d
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
+vendor/bin/dpmQmiMgr|a43829d478ebc243b5f7307b44aa501a7a3c8211
+vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
+vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|50a6e8edcad48708d0b0cac98e7f9be98bdea225
+vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
+vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
+-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
 
 # DRM
 vendor/bin/qseecomd
@@ -2297,39 +2318,29 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 -framework/WfdCommon.jar
 -framework/audiosphere.jar
 -framework/cneapiclient.jar
--framework/com.qti.dpmframework.jar
 -framework/com.qti.location.sdk.jar
--framework/dpmapi.jar
 -framework/embmslibrary.jar
 -framework/izat.xt.srv.jar
 -framework/qcrilhook.jar
--framework/tcmclient.jar
 -framework/vendor.qti.data.factory-V1.0-java.jar
 -framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
 -framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
 -priv-app/CNEService/CNEService.apk
 -priv-app/WfdService/WfdService.apk
--priv-app/dpmserviceapp/dpmserviceapp.apk
 -priv-app/ims/ims.apk
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-bin/dpmd
 bin/wfdservice
-etc/dpm/dpm.conf
 etc/firmware/ice40.bin
 etc/firmware/wlan/prima/WCNSS_cfg.dat
-etc/init/dpmd.rc
 etc/init/wfdservice.rc
 etc/perf/whitelistedapps.xml
 etc/permissions/audiosphere.xml
 etc/permissions/cneapiclient.xml
-etc/permissions/com.qti.dpmframework.xml
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
 etc/permissions/com.quicinc.cne.xml
-etc/permissions/dpmapi.xml
 etc/permissions/embms.xml
 etc/permissions/izat.xt.srv.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
@@ -2341,7 +2352,6 @@ etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
 etc/wfdconfig.xml
 etc/wfdconfigsink.xml
-lib/com.qualcomm.qti.dpm.api@1.0.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/extractors/libmmparser.so
 lib/fm_helium.so
@@ -2354,10 +2364,6 @@ lib/libFileMux.so
 lib/libOmxMux.so
 lib/libantradio.so
 lib/libdiag_system.so
-lib/libdpmctmgr.so
-lib/libdpmfdmgr.so
-lib/libdpmframework.so
-lib/libdpmtcm.so
 lib/libfm-hci.so
 lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
@@ -2393,7 +2399,6 @@ lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 lib/vendor.qti.hardware.scve.panorama@1.0.so
-lib64/com.qualcomm.qti.dpm.api@1.0.so
 lib64/extractors/libmmparser.so
 lib64/fm_helium.so
 lib64/lib-imscamera.so
@@ -2405,10 +2410,6 @@ lib64/libFileMux.so
 lib64/libOmxMux.so
 lib64/libantradio.so
 lib64/libdiag_system.so
-lib64/libdpmctmgr.so
-lib64/libdpmfdmgr.so
-lib64/libdpmframework.so
-lib64/libdpmtcm.so
 lib64/libfm-hci.so
 lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
