@@ -2649,7 +2649,6 @@ vendor/ueventd.rc
 vendor/etc/audio/audio_policy_configuration.xml
 vendor/bin/init.qcom.efs.sync.sh
 vendor/etc/flp.conf
-vendor/bin/wcnss_service
 vendor/etc/ftm_test_config
 vendor/etc/media_codecs_google_audio.xml
 vendor/etc/mixer_paths_qrd_skuh.xml
@@ -2669,7 +2668,6 @@ vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/bin/grep
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/lib64/libwpa_client.so
-vendor/etc/IPACM_cfg.xml
 vendor/package/CTA/.preloadspec
 vendor/lib64/libalsautils.so
 vendor/etc/media_profiles.xml
@@ -2693,7 +2691,6 @@ vendor/etc/sec_config
 vendor/etc/mixer_paths_mtp.xml
 vendor/lib64/libhypv_intercept.so
 vendor/bin/init.class_main.sh
-vendor/bin/ipacm
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/media_codecs_google_telephony.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
@@ -2725,9 +2722,7 @@ vendor/etc/xtwifi.conf
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libnbaio_mono.so
 vendor/lib/librmnetctl.so
-vendor/lib64/libcld80211.so
 vendor/bin/logwrapper
-vendor/lib/libcld80211.so
 vendor/etc/audio_policy.conf
 vendor/lib/libwpa_client.so
 vendor/lib64/libril.so
