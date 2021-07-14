@@ -2670,7 +2670,6 @@ vendor/lib64/libwpa_client.so
 vendor/package/CTA/.preloadspec
 vendor/lib64/libalsautils.so
 vendor/etc/media_profiles.xml
-vendor/etc/mixer_paths.xml
 vendor/lib64/libjson.so
 vendor/lib/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/lib64/libbthost_if.so
@@ -2687,7 +2686,6 @@ vendor/lib64/libhwc2onfbadapter.so
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/package/ChinaUnicom/.preloadspec
 vendor/etc/sec_config
-vendor/etc/mixer_paths_mtp.xml
 vendor/lib64/libhypv_intercept.so
 vendor/bin/init.class_main.sh
 vendor/etc/a2dp_audio_policy_configuration.xml
