@@ -2616,7 +2616,6 @@ vendor/bin/init.qcom.sensors.sh
 vendor/etc/mixer_paths_wcd9330.xml
 vendor/bin/init.qcom.early_boot.sh
 vendor/bin/init.qcom.sh
-vendor/etc/audio_policy_configuration.xml
 vendor/bin/init.qti.qseecomd.sh
 vendor/lib64/libqsap_sdk.so
 vendor/etc/msm_irqbalance.conf
@@ -2647,7 +2646,6 @@ vendor/bin/init.qcom.post_boot.sh
 vendor/etc/seccomp_policy/mediaextractor.policy
 vendor/etc/audio_platform_info_extcodec.xml
 vendor/ueventd.rc
-vendor/etc/audio/audio_policy_configuration.xml
 vendor/bin/init.qcom.efs.sync.sh
 vendor/etc/flp.conf
 vendor/etc/ftm_test_config
