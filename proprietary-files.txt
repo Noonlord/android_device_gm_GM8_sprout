@@ -1555,7 +1555,6 @@ vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|50a6e8edcad48708d0b0cac98e7f9be98bdea
 vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
 
 # DRM
 vendor/bin/qseecomd
