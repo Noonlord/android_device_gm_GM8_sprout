@@ -2591,7 +2591,6 @@ vendor/etc/init/hw/init.qcom.usb.rc
 vendor/bin/qca6234-service.sh
 vendor/etc/mixer_paths_wcd9326.xml
 vendor/etc/permissions/android.hardware.light.xml
-vendor/lib/libeffects.so
 vendor/etc/apdr.conf
 vendor/lib/libbthost_if.so
 vendor/etc/init/android.hardware.cas@1.0-service.rc
@@ -2696,7 +2695,6 @@ vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
 vendor/lib64/librmnetctl.so
 vendor/etc/init/hw/init.msm.usb.configfs.rc
-vendor/lib64/libeffects.so
 vendor/bin/init.qti.fm.sh
 vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
