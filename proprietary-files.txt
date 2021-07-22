@@ -2691,7 +2691,6 @@ vendor/etc/fs_config_files
 vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
-vendor/lib64/librmnetctl.so
 vendor/etc/init/hw/init.msm.usb.configfs.rc
 vendor/bin/init.qti.fm.sh
 vendor/bin/init.qti.ims.sh
@@ -2710,7 +2709,6 @@ vendor/lib/libqsap_sdk.so
 vendor/etc/xtwifi.conf
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libnbaio_mono.so
-vendor/lib/librmnetctl.so
 vendor/bin/logwrapper
 vendor/etc/audio_policy.conf
 vendor/lib/libwpa_client.so
