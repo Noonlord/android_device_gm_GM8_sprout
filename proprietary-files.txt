@@ -2710,7 +2710,6 @@ vendor/etc/xtwifi.conf
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libnbaio_mono.so
 vendor/bin/logwrapper
-vendor/etc/audio_policy.conf
 vendor/lib/libwpa_client.so
 vendor/lib64/libril.so
 vendor/etc/default_volume_tables.xml
