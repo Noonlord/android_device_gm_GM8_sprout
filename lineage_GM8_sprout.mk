@@ -24,3 +24,7 @@ BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/r
 
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1440
+
+# GMS
+WITH_GMS := true
+$(call inherit-product, vendor/gms/products/gms.mk)
