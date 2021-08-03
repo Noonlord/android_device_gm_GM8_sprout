@@ -2654,7 +2654,6 @@ vendor/etc/permissions/android.hardware.light.xml
 vendor/etc/apdr.conf
 vendor/lib/libbthost_if.so
 vendor/etc/init/android.hardware.cas@1.0-service.rc
-vendor/etc/audio_policy_volumes.xml
 vendor/bin/init.qcom.sdio.sh
 vendor/etc/media_codecs_8937_v1.xml
 vendor/etc/media_codecs_8956.xml
@@ -2684,7 +2683,6 @@ vendor/bin/init.lct.bootcheckend.sh
 vendor/etc/mixer_paths_qrd_skui.xml
 vendor/bin/init.crda.sh
 vendor/etc/sound_trigger_mixer_paths_wcd9335.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/audio_platform_info.xml
 vendor/etc/mixer_paths_qrd_sku1.xml
 vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so
@@ -2755,7 +2753,6 @@ vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
-vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/public.libraries.txt
 vendor/etc/media_codecs_google_video.xml
 vendor/etc/mixer_paths_qrd_skum.xml
@@ -2767,7 +2764,6 @@ vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libnbaio_mono.so
 vendor/bin/logwrapper
 vendor/lib/libwpa_client.so
-vendor/etc/default_volume_tables.xml
 vendor/lib/libalsautils.so
 vendor/etc/sensors/hals.conf
 vendor/etc/izat.conf
