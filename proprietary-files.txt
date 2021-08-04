@@ -2615,7 +2615,6 @@ vendor/bin/resize_ext4
 vendor/bin/sigma_dut
 vendor/bin/spectraltool
 vendor/bin/ssgqmigd
-vendor/bin/ssgtzd
 vendor/bin/StoreKeybox
 vendor/bin/tbaseLoader
 vendor/bin/test_diag
