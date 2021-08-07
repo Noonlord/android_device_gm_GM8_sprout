@@ -13,7 +13,6 @@ vendor/lib64/libfastcvopt.so|f5e25aa055a57e23530b858bf7dd204a6009effc
 vendor/lib64/libmdsprpc.so|38de6a53d3c2ff60a253c7c6a0d3b46962e8e194
 vendor/lib64/libsdsprpc.so|1e89a33bae491abe4c81bb77c8fabf59bff4b853
 
-
 # ADSP-Modules - from daisy_sprout-daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
@@ -27,7 +26,6 @@ vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
-
 
 # ANT
 vendor/lib/com.qualcomm.qti.ant@1.0.so
@@ -1569,47 +1567,47 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
-# DRM
-vendor/bin/qseecomd
-vendor/lib/libbase64.so
-vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libqisl.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/librmp.so
-vendor/lib/librpmb.so
-vendor/lib/libsdedrm.so
-vendor/lib/libsecureui.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsi.so
-vendor/lib/libssd.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib64/libbase64.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libqisl.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/librmp.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsi.so
-vendor/lib64/libssd.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM - from daisy-user 10 QKQ1.191002.002.V11.0.5.0.QDLMIXM
+vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
+vendor/lib/libGPQTEEC_vendor.so|ff57cecc96e32f96564a3b1bb113546eeda045d2
+vendor/lib/libGPTEE_vendor.so|5e817e8ea584fbc02b0098e37f76ccb9d0d2d066
+vendor/lib/libGPreqcancel.so|83aead93481d3136737c6d720be8ded0700d8b2a
+vendor/lib/libGPreqcancel_svc.so|5c7c3eb2aeeec3ad27b322d3cca2cec1516bad95
+vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
+vendor/lib/libSecureUILib.so|c640f3240fd8a54d9125514409c8db4256e2d4d8
+vendor/lib/libStDrvInt.so|24e0097f0940e3ca5d3fa0b155070a29396b8ec4
+vendor/lib/libbase64.so|c540d7b99f2ce5a2d55a124088f0431280ddc209
+vendor/lib/libcpion.so|f11c9f3adb9d216203fc2b027e7000611b5314fc
+vendor/lib/libcppf.so|80a6431cc5302e0e61a89f840bd5e12d0f22b04d
+vendor/lib/libdrmfs.so|974fef011aa942d51b4830ca3347c7f8468739ee
+vendor/lib/libdrmtime.so|f632d13447e43ef694f7d078d5aebe54c60e90dd
+vendor/lib/libqisl.so|3cd2941f5e4e3cf2a7a148d37fac97ed64d9cedb
+vendor/lib/librmp.so|12d966066b6acc0fa3b094036ee2556312c04b0b
+vendor/lib/librpmb.so|60de8b607124be6de32703210d7427366073b47a
+vendor/lib/libsdedrm.so|f56cbdcd2e0f3cf06e2e72219a7b37d197119e93
+vendor/lib/libsecureui.so|2234d1c200640ec5c9460a710ba9e23993c03aa7
+vendor/lib/libsecureui_svcsock.so|9c3640c5f0429b458892b9d1643a0dd6e58c9d45
+vendor/lib/libsi.so|4f8339095572dcca5d40d9eacc5536418393566b
+vendor/lib/libssd.so|c2a2d59139b51112f60cf78601dc287a88f6fcc4
+vendor/lib64/libGPQTEEC_vendor.so|f378e4434df01922c9829406121d77bb3c6afd2c
+vendor/lib64/libGPTEE_vendor.so|0bc88c8e6bbe3b38e5c2229f5dfedf38c0e320d8
+vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
+vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
+vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
+vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a
+vendor/lib64/libStDrvInt.so|2947474aad631d5345283e57a38003b6373b2d11
+vendor/lib64/libbase64.so|2f0f564f0253b7ee1a5e2a4635dee3fa974ee835
+vendor/lib64/libcpion.so|1420ffb62d598b83507bf615f707c060649a4267
+vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
+vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
+vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
+vendor/lib64/librmp.so|275cec951c309213be5b68ecd46593b251c33b04
+vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
+vendor/lib64/libsdedrm.so|efae2af1bcf18752db446f4b10e665f23cb1edaa
+vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
+vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
+vendor/lib64/libsi.so|a25e798e1b251256f036bc3a76f66e2b26870924
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
 # DRM-HDCP
 vendor/lib/libmm-hdcpmgr.so
@@ -1838,13 +1836,13 @@ vendor/lib64/libgnss.so
 vendor/lib64/libgnsspps.so
 vendor/lib64/libgps.utils.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/gatekeeper.msm8937.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/gatekeeper.msm8937.so
+# Gatekeeper - from daisy-user 10 QKQ1.191002.002.V11.0.5.0.QDLMIXM
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|b04d8ae5d3851f29fd8b7c8e034fa0ef04fb96f3
+vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|cd04140788659ae07a50081baeb3eb2e42f37028|3d91cdf7dfbd19254be57b8652e55301247d412f
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|4bc9f319b3a62f3d8e3e0c539b577027c263e7df
+vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2|3125e1bad9e8231df1628d909ba514b250835a7d
 
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -1902,24 +1900,22 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libtinyxml2_1.so
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/hw/keystore.msm8937.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/hw/keystore.msm8937.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster - from daisy-user 10 QKQ1.191002.002.V11.0.5.0.QDLMIXM
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ac0aabf396888c9dc8b6dc23291e190daa943e24
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|13a894ea69abc056b754fa9e8f8e828ffd1de38c
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|81dc700d9c58299f48a7a1676b2a15f8d18f65f9
+vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|c56d3768e04fc180d844dbca94be8c27770e37d5|45db8a11d384f7223383e93a96eba29fea612572
+vendor/lib/libkeymasterdeviceutils.so|e3557fd2bc5d01de71b62e378dc51a2696a99768
+vendor/lib/libkeymasterprovision.so|b7a67b7df996341798e01948745dc63f5386b456
+vendor/lib/libkeymasterutils.so|228caaa1bfa8ac3d434f9ac158ca8d1dc1b8c667
+vendor/lib/libqtikeymaster4.so|986f8c48991f4004acecf8ba1c9e442afdcd9ea2
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|95d84ef473d4cb733297cbf01c5d1e18bb3325d4
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b|d8303e587ac8cd79205ddf5e0627edefbc281561
+vendor/lib64/libkeymasterdeviceutils.so|784e8f3e6bb36214d171ba127454554049d140f5
+vendor/lib64/libkeymasterprovision.so|245fa13cad4dc81e66bc6fc3b7d20fa6c1afdefc
+vendor/lib64/libkeymasterutils.so|126096a6ce1ce50db8193a4617f1b1b0f6b3105c
+vendor/lib64/libqtikeymaster4.so|4fea65bc5cdfb2299100cbaeeb80984780b11a17
 
 # Latency
 vendor/lib/vendor.qti.hardware.data.latency@1.0.so
@@ -2463,7 +2459,6 @@ vendor/bin/ppd_sun
 vendor/bin/ptt_socket_app
 vendor/bin/qjpeg-dma-test
 vendor/bin/qmi_simple_ril_test
-vendor/bin/qseecom_sample_client
 vendor/bin/resize_ext4
 vendor/bin/sigma_dut
 vendor/bin/spectraltool
