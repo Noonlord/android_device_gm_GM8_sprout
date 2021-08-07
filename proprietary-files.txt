@@ -2120,7 +2120,7 @@ system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
 vendor/bin/adpl|fa1cb30ba086886d4c5329e7f4d97cea5459003e
 vendor/bin/hw/qcrild|d25d2f28227b032fbce336abb01bf93053d85ac9
-vendor/bin/init.class_main.sh
+vendor/bin/init.class_main.sh|869119f0d3401b943a8e24c7e0a9a30697956701
 vendor/bin/netmgrd|b19ee396b8ebd2f60e5677bba28d6d3e613d9781
 vendor/bin/port-bridge|a22b128dbbcd2fc8ee1a646a4928da8b028fa9e9
 vendor/bin/qrtr-cfg|9786455690d4b8e60681f40ebe61fc937d2cd713
