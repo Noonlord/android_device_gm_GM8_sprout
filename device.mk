@@ -10,6 +10,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # A/B
 PRODUCT_PACKAGES += \
     update_engine \
+    update_engine_sideload \
     update_verifier
 
 PRODUCT_PACKAGES += otapreopt_script
