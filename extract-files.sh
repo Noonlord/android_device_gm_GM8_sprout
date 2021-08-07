@@ -61,6 +61,18 @@ function blob_fixup() {
     product/lib64/libdpmframework.so)
         "${PATCHELF}" --add-needed "libshim_dpmframework.so" "${2}"
         ;;
+    vendor/lib/hw/gatekeeper.msm8937.so)
+        "${PATCHELF}" --set-soname gatekeeper.msm8937.so "${2}"
+        ;;
+    vendor/lib64/hw/gatekeeper.msm8937.so)
+        "${PATCHELF}" --set-soname gatekeeper.msm8937.so "${2}"
+        ;;
+    vendor/lib/hw/keystore.msm8937.so)
+        "${PATCHELF}" --set-soname keystore.msm8937.so "${2}"
+        ;;
+    vendor/lib64/hw/keystore.msm8937.so)
+        "${PATCHELF}" --set-soname keystore.msm8937.so "${2}"
+        ;;
     esac
 }
 
