@@ -265,6 +265,9 @@ PRODUCT_BOOT_JARS += \
 # Toybox
 PRODUCT_PACKAGES += toybox_vendor
 
+# UpdaterOverlay
+PRODUCT_PACKAGES += UpdaterOverlay
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
