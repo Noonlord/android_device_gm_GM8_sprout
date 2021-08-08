@@ -2684,14 +2684,12 @@ vendor/ueventd.rc
 vendor/bin/init.qcom.efs.sync.sh
 vendor/etc/flp.conf
 vendor/etc/ftm_test_config
-vendor/etc/media_codecs_google_audio.xml
 vendor/etc/mixer_paths_qrd_skuh.xml
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/audio_effects.conf
 vendor/bin/hw/android.hardware.cas@1.0-service
 vendor/etc/gps.conf
-vendor/etc/media_codecs_google_video_le.xml
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/hw/local_time.default.so
 vendor/lib64/liboffloadhal.so
@@ -2721,7 +2719,6 @@ vendor/package/ChinaUnicom/.preloadspec
 vendor/etc/sec_config
 vendor/lib64/libhypv_intercept.so
 vendor/bin/init.class_main.sh
-vendor/etc/media_codecs_google_telephony.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/bin/init.mdm.sh
 vendor/etc/lowi.conf
@@ -2737,7 +2734,6 @@ vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
 vendor/etc/public.libraries.txt
-vendor/etc/media_codecs_google_video.xml
 vendor/etc/mixer_paths_qrd_skum.xml
 vendor/bin/init.qcom.crashdata.sh
 vendor/etc/mixer_paths_qrd_skuhf.xml
