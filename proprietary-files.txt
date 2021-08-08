@@ -2530,7 +2530,6 @@ vendor/bin/init.lct.bootcheckend.sh
 vendor/etc/mixer_paths_qrd_skui.xml
 vendor/bin/init.crda.sh
 vendor/etc/sound_trigger_mixer_paths_wcd9335.xml
-vendor/etc/audio_platform_info.xml
 vendor/etc/mixer_paths_qrd_sku1.xml
 vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/etc/group
