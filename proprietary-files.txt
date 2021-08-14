@@ -737,7 +737,9 @@ vendor/lib64/libFidoCrypto_vendor.so
 
 # Fingerprint
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/vendor.sw.swfingerprint@1.0-service
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/firmware/fpctzappfingerprint.b00
 vendor/firmware/fpctzappfingerprint.b01
@@ -759,8 +761,6 @@ vendor/lib64/vendor.sw.swfingerprint@1.0.so
 
 # Fingerprint - from GM9PRO
 vendor/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service|f5ff8d10e75c7ac41670b3e46f2109fa44aeb625
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|7abd28bd1f209a6a1caf6feb283109c2c6ceb45f
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|ca1987f2a58ce2db6cc4d869e67a722356b06490
 
 # Firmware
 vendor/firmware/a225p5_pm4.fw
