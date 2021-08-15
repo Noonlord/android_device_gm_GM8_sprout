@@ -131,7 +131,9 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_PACKAGES += \
+    libhidltransport \
     libhidltransport.vendor \
+    libhwbinder \
     libhwbinder.vendor
 
 # HW crypto
