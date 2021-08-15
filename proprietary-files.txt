@@ -1748,7 +1748,6 @@ vendor/bin/grep
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/lib64/libwpa_client.so
 vendor/package/CTA/.preloadspec
-vendor/lib64/libalsautils.so
 vendor/etc/media_profiles.xml
 vendor/lib64/libjson.so
 vendor/lib/android.hardware.automotive.vehicle@2.0-manager-lib.so
@@ -1791,6 +1790,5 @@ vendor/framework/com.fingerprints.extension.jar
 vendor/lib/libnbaio_mono.so
 vendor/bin/logwrapper
 vendor/lib/libwpa_client.so
-vendor/lib/libalsautils.so
 vendor/etc/sensors/hals.conf
 vendor/etc/izat.conf
