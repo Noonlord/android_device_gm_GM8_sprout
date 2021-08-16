@@ -1648,7 +1648,6 @@ vendor/bin/hal_proxy_daemon
 vendor/bin/hbtp_daemon
 vendor/bin/hw/rild
 vendor/bin/icm
-vendor/bin/ipacm-diag
 vendor/bin/iwlist
 vendor/bin/KmInstallKeybox
 vendor/bin/mlid
@@ -1756,7 +1755,6 @@ vendor/etc/audio_effects.conf
 vendor/bin/hw/android.hardware.cas@1.0-service
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/hw/local_time.default.so
-vendor/lib64/liboffloadhal.so
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/bin/grep
@@ -1768,7 +1766,6 @@ vendor/lib64/libjson.so
 vendor/lib/android.hardware.automotive.vehicle@2.0-manager-lib.so
 vendor/lib64/libbthost_if.so
 vendor/lib64/libnetfilter_conntrack.so
-vendor/lib64/libipanat.so
 vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/bin/init.qcom.class_core.sh
 vendor/etc/sound_trigger_platform_info.xml
