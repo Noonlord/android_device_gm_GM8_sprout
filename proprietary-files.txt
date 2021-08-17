@@ -1657,7 +1657,6 @@ vendor/bin/mm-qjpeg-enc-test
 vendor/bin/mm-qomx-idec-test
 vendor/bin/mm-qomx-ienc-test
 vendor/bin/mmid
-vendor/bin/move_fp
 vendor/bin/pktlogconf
 vendor/bin/PktRspTest
 vendor/bin/ppd_sun
