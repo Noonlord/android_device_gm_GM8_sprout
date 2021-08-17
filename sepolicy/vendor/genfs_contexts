@@ -1,0 +1,1 @@
+ genfscon proc /android_touch   u:object_r:proc_doubletap_gesture:s0
