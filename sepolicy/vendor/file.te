@@ -1,2 +1,6 @@
+# DT2W
+type sysfs_doubletap_gesture, sysfs_type, fs_type;
+type proc_doubletap_gesture, proc_type, fs_type;
+
 # Health
 type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
