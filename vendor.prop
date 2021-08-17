@@ -55,6 +55,7 @@ vendor.voice.record.conc.disabled=false
 vendor.voice.voip.conc.disabled=true
 vendor.voice.conc.fallbackpath=deep-buffer
 persist.vendor.audio.speaker.prot.enable=false
+vendor.service.qti.ims.enabled=1
 vendor.audio.hw.aac.encoder=true
 vendor.audio.flac.sw.decoder.24bit=true
 ro.af.client_heap_size_kbyte=7168
