@@ -1787,7 +1787,6 @@ vendor/bin/init.qcom.coex.sh
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/etc/audio_tuning_mixer.txt
 vendor/etc/init/hw/init.msm.usb.configfs.rc
-vendor/bin/init.qti.ims.sh
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib/libjson.so
