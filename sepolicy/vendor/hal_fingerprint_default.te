@@ -1,0 +1,25 @@
+type hal_swfingerprint_hwservice, hwservice_manager_type;
+type sunwave_fp, dev_type;
+
+typeattribute hal_fingerprint_default data_between_core_and_vendor_violators;
+
+allow hal_fingerprint_default fingerprintd_data_file:dir rw_dir_perms;
+allow hal_fingerprint_default fingerprintd_data_file:file create_file_perms;
+allow hal_fingerprint_default init:unix_stream_socket connectto;
+allow hal_fingerprint_default property_socket:sock_file write;
+allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
+allow hal_fingerprint_default uhid_device:chr_file rw_file_perms;
+allow hal_fingerprint_default vndbinder_device:chr_file rw_file_perms;
+allow hal_fingerprint_default sunwave_fp:chr_file rw_file_perms;
+allow hal_fingerprint_default hal_fingerprint_default:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+
+binder_call(hal_fingerprint_default, hal_fingerprint_default)
+
+vndbinder_use(hal_fingerprint_default)
+
+set_prop(hal_fingerprint_default, ctl_stop_prop)
+set_prop(hal_fingerprint_default, ctl_start_prop)
+
+add_hwservice(hal_fingerprint_default, hal_swfingerprint_hwservice)
+add_service(hal_fingerprint_default, sf_service)

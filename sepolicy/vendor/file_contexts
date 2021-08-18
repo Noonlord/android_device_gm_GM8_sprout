@@ -1,6 +1,11 @@
 # DT2W
 /sys/android_touch/wakeup_gesture_enable				  u:object_r:sysfs_doubletap_gesture:s0
 
+# Fingerprint
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint\.fpc@2\.1-service u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.sw\.swfingerprint@1\.0-service                       u:object_r:hal_fingerprint_default_exec:s0
+/dev/sunwave_fp                                                                             u:object_r:sunwave_fp:s0
+
 # Health
 /sys/devices/soc/7af5000.i2c/i2c-5/5-0055/power_supply/bms/type         u:object_r:sysfs_healthd:s0
 /sys/devices/soc/7af5000.i2c/i2c-5/5-006b/power_supply                  u:object_r:sysfs_batteryinfo:s0
