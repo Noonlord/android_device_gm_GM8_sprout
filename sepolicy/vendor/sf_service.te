@@ -1,0 +1,2 @@
+type sf_service, vndservice_manager_type;
+vndbinder_use(sf_service)
