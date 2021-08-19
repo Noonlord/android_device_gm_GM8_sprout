@@ -7,11 +7,11 @@
 # Inherit from GM8_sprout device
 $(call inherit-product, device/gm/GM8_sprout/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_GM8_sprout
+PRODUCT_NAME := arrow_GM8_sprout
 PRODUCT_DEVICE := GM8_sprout
 PRODUCT_BRAND := GM
 PRODUCT_MODEL := GM 8
