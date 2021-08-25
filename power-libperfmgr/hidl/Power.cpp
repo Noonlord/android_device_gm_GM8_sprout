@@ -16,6 +16,9 @@
 
 #define LOG_TAG "android.hardware.power@1.3-service.gm-libperfmgr"
 
+#define TAP_TO_WAKE_HIMAX "/proc/android_touch/SMWP"
+#define TAP_TO_WAKE_FTS "/sys/android_touch/wakeup_gesture_enable"
+
 #include "Power.h"
 
 #include <mutex>
@@ -144,8 +147,15 @@ Return<void> Power::powerHint(PowerHint_1_0 hint, int32_t data) {
     return Void();
 }
 
-Return<void> Power::setFeature(Feature /*feature*/, bool /*activate*/) {
-    // Nothing to do
+Return<void> Power::setFeature(Feature feature, bool activate) {
+    if (feature == Feature::POWER_FEATURE_DOUBLE_TAP_TO_WAKE){
+        char value = activate ? '1' : '0';
+        int fd = open(TAP_TO_WAKE_FTS, O_WRONLY);
+        if (fd < 0){
+            fd = open(TAP_TO_WAKE_HIMAX, O_WRONLY);
+        }
+        write(fd, &value, sizeof(value));
+    }
     return Void();
 }
 
