@@ -98,6 +98,15 @@
       "ResetOnInit": true
     },
     {
+      "Name": "SchedBoost",
+      "Path": "/proc/sys/kernel/sched_boost",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/devices/soc/soc:qcom,cpubw/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -309,6 +318,12 @@
       "Node": "GPUIdleTimer",
       "Duration": 3500,
       "Value": "10000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SchedBoost",
+      "Duration": 3500,
+      "Value": "1"
     },
     {
       "PowerHint": "AUDIO_STREAMING",
