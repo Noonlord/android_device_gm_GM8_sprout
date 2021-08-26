@@ -1,1 +1,3 @@
- genfscon proc /android_touch   u:object_r:proc_doubletap_gesture:s0
+# Power
+genfscon debugfs /system_stats                                  u:object_r:debugfs_rpm:s0
+genfscon proc /android_touch                                    u:object_r:proc_doubletap_gesture:s0

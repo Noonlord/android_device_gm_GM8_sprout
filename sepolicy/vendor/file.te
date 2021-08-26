@@ -4,3 +4,8 @@ type proc_doubletap_gesture, proc_type, fs_type;
 
 # Health
 type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
+
+# Power
+type debugfs_rpm, debugfs_type, fs_type;
+type sysfs_msm_subsys, sysfs_type, fs_type;
+
